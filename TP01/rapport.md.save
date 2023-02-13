@@ -20,9 +20,9 @@ Un formatage de la clé a été effectué le 10 Février 2023 à 21h51.
 
 Conclusion : 
 
-L'analyse du support nous a permis de constater que la clé est infectée par deux fichiers :
+L'analyse du support nous a permis de constaer que la clé est infectée par deux fichiers :
 - f0016520.png
 - f0040392.png
-[Ces deux fichiers contiennent le flag attendu (bosch {1MAG3}.]
-Il est fortement déconseillé de connecter ce support à un quelconque appareil.
+
+Ces deux fichiers contiennent le flag attendu (bosch {1MAG3}.
 Vous trouverez, ci joint au rapport d'analyse, des captures d'écran associées aux informations relevées lors du rapport.
