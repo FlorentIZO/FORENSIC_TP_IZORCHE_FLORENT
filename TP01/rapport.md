@@ -15,7 +15,7 @@ Les analyses du périphérique ont été réalisés dans un environnement de tes
 Après analyse du format du support (via la commande xxd), nous avons constaté que le format de l'image était sous MS-DOS, aussi appelé FAT.
 Il s'agit d'un vieux format de disque peu utilisé à ce jour.
 Il est possible que cette clé soit relativement agée.
-![alt text] (Format.png)
+![Format du disque](/home/kali/FORENSIC_TP_IZORCHE_FLORENT/TP01/IMG/Format.PNG "Format du disque")
 
 Après avoir pris compte des informations donnés ci-dessus :
 Nous avons tenté de restaurer les fichiers de la clé USb :
