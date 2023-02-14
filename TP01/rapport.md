@@ -3,15 +3,29 @@
 Contexte :
 
 Une clé USB suspecte a été identifiée à proximité du commissariat par un agent de police.
-Il nous a été demandé d'analyser ce support amovible afin de déterminer si l'appareil est compromis.
+Il nous a été demandé d'analyser ce support amovible afin de déterminer si l'appareil était sans risque et ne comportait aucun fichier suspect.
 
 
-Etat constaté : 
 
-Nous avons constaté que le format de l'image était sous MS-DOS, un système d'exploitation sans interface graphique sous Microsoft.
+Tests effectués  : 
 
-Avec la commande PhotoRec, il nous a été permis de récupérer plusieurs fichiers contenu dans le support amovible.
-Parmis ces fichiers, se trouvait un fichier nommé Hash.PNG, un fihcier potentiellement dangereux. 
+Les analyses du périphérique ont été réalisés dans un environnement de test dédié et à partir d'une copie du support afin de garantir l'intégrité des données.
+
+
+Après analyse du format du support (via la commande xxd), nous avons constaté que le format de l'image était sous MS-DOS, aussi appelé FAT.
+Il s'agit d'un vieux format de disque peu utilisé à ce jour.
+Il est possible que cette clé soit relativement agée.
+![alt text] (Format.png)
+
+Après avoir pris compte des informations donnés ci-dessus :
+Nous avons tenté de restaurer les fichiers de la clé USb :
+
+Nous avons d'abord utilisé la commande testdisk pour tenter la récupération des fichiers mais les tests n'ont pas été concluants.
+![alt test] (testdisk.png)
+
+Toutefois, avec la commande PhotoRec, nous avons pu récupérer plusieurs fichiers contenu dans le support amovible.
+Parmis ces fichiers, se trouvait deux fichiers nommés Hash.PNG, deux fihciers potentiellements dangereux. 
+![alt text] (dossier.png)
 
 Autre information  relevée :
 
@@ -24,5 +38,11 @@ L'analyse du support nous a permis de constater que la clé est infectée par de
 - f0016520.png
 - f0040392.png
 [Ces deux fichiers contiennent le flag attendu (bosch {1MAG3}.]
-Il est fortement déconseillé de connecter ce support à un quelconque appareil.
-Vous trouverez, ci joint au rapport d'analyse, des captures d'écran associées aux informations relevées lors du rapport.
+![alt test] (Hash.png)
+
+Il est fortement déconseillé de connecter ce périphérique à un quelconque appareil.
+Vous trouverez, ci joint au rapport d'analyse, les captures d'écran associées aux informations relevées lors du rapport.
+
+Cordialement
+Le laboraotire d'analyse 
+
