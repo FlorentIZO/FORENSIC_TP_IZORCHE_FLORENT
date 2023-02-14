@@ -1,13 +1,12 @@
------ RAPPORT D'ANALYSE DU SUPPORT EXTERNE  ----
+         				----- RAPPORT D'ANALYSE DU SUPPORT EXTERNE  ----
 
 Contexte :
 
 Une clé USB suspecte a été identifiée à proximité du commissariat par un agent de police.
 Il nous a été demandé d'analyser ce support amovible afin de déterminer si l'appareil était sans risque et ne comportait aucun fichier suspect.
 
-
-
-Tests effectués  : 
+ 
+Tests réalisés :
 
 Les analyses du périphérique ont été réalisés dans un environnement de test dédié et à partir d'une copie du support afin de garantir l'intégrité des données.
 
@@ -27,7 +26,6 @@ Nous avons d'abord utilisé la commande testdisk pour tenter la récupération d
 
 Toutefois, avec la commande PhotoRec, nous avons pu récupérer plusieurs fichiers contenu dans le support amovible.
 Parmis ces fichiers, se trouvait deux fichiers nommés Hash.PNG, deux fihciers potentiellements dangereux. 
-![alt text] (dossier.jpg)
 ![contenu dossier](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP01/IMG/dossier.PNG "contenu dossier")
 
 
@@ -42,7 +40,6 @@ L'analyse du support nous a permis de constater que la clé est infectée par de
 - f0016520.png
 - f0040392.png
 [Ces deux fichiers contiennent le flag attendu (bosch {1MAG3}.]
-![alt text] (Hash.png)
 ![flag](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP01/IMG/Hash.PNG "Flag")
 
 
@@ -50,5 +47,5 @@ Il est fortement déconseillé de connecter ce périphérique à un quelconque a
 Vous trouverez, ci joint au rapport d'analyse, les captures d'écran associées aux informations relevées lors du rapport.
 
 Cordialement
-Le laboraotire d'analyse 
+Le laboratoire d'analyse 
 
