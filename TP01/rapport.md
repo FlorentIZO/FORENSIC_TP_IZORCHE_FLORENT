@@ -25,7 +25,7 @@ Nous avons d'abord utilisé la commande testdisk pour tenter la récupération d
 
 Toutefois, avec la commande PhotoRec, nous avons pu récupérer plusieurs fichiers contenu dans le support amovible.
 Parmis ces fichiers, se trouvait deux fichiers nommés Hash.PNG, deux fihciers potentiellements dangereux. 
-![alt text] (dossier.png)
+![alt text] (dossier.jpg)
 
 Autre information  relevée :
 
