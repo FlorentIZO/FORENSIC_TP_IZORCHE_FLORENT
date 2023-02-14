@@ -16,7 +16,7 @@ Après analyse du format du support (via la commande xxd), nous avons constaté 
 Il s'agit d'un vieux format de disque peu utilisé à ce jour.
 Il est possible que cette clé soit relativement agée.
 ![Format du disque](/home/kali/FORENSIC_TP_IZORCHE_FLORENT/TP01/IMG/Format.PNG "Format du disque")
-![Format du disque](/FORENSIC_TP_IZORCHE_FLORENT/TP01/IMG/Format.PNG "Format du disque")
+![Format du disque](/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/TP01/IMG/Format.PNG "Format du disque")
 
 
 Après avoir pris compte des informations donnés ci-dessus :
