@@ -1,4 +1,4 @@
-				----- TP02 -----
+							----- TP02 -----
 
 Dans cet exercice, vous devez donner le nombre de logements se situant dans la commune de Pibrac.
 
