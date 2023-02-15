@@ -12,7 +12,7 @@ Il s'agit d'un serveur Apache sous Ubuntu 2.04.5.
 Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
 
 
-## *2 - Méthodologie : *
+## *2 - Méthodologie :*
 
 
 La commande "history" nous a permis de lister toutes les commandes exécutées précédemment.
@@ -46,7 +46,7 @@ Il ne nous reste plus qu'à lire le contenu du fichier all_tools.txt contenu dan
 ![unzip](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/unzip.PNG "unzip")
 
 
-### *3 - Résultats et conlusion de l'analyse : *
+### *3 - Résultats et conlusion de l'analyse :*
 
 Un individu s'est connecté sur votre serveur est a déployé un programme/outil malveillant.
 Il a compressé son fichier et l'a protégé avec un mot de passe qu'il a stocké dans un second fichier.
@@ -62,7 +62,7 @@ L'attaquant est certaienement parvenu à s'introduire par le biais du port 4444.
 Il a profité de l'ouverture de ce port pour y introduire un cheval de troie.
 
 
-### *4 - Recommandations : *
+### *4 - Recommandations :*
 
 Nous vous recommandons vivement de bloquer l'utilisation du port 4444.
 En effet, ce port est souvent utilisé par des attaquants pour injecter des chevaux de Troie et autres Malwares.
