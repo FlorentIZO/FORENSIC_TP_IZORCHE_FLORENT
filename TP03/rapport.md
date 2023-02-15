@@ -1,7 +1,7 @@
-[center] # ----- RAPPORT D'ANALYSE ----- [/center]
+## ----- RAPPORT D'ANALYSE ----- ##
 
 
-## *1 - Introduction :*
+### *1 - Introduction :*
 
 L'entreprise bosch-cyber nous a contacté suite a une attaque informatique impactant son site Web.
 Un individu a été en mesure d'installer des outils potentiellement dangereux sur la machine ciblée.
