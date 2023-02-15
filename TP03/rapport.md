@@ -36,7 +36,7 @@ En ouvrant le fichier contrab, nous pouvons constater que la modificaiton a ét�
 Le port utilisé (4444) est souvent utilisé pour déployer un Malware nommé CrackDown, son utilisation est certainement malveillante.
 
 Tentative de récupération du mot de passe à partir du fichier /tmp/mypassword :
-La commande grep -r /mypassword nous confirme qu'il ne reste aucune trace du fichier.
+La commande grep -r /mypassword nous confirme qu'il ne reste aucune trace du fichier.  
 ![grep](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/grep.PNG "grep")
 
 Nous avons orienté notre grep vers l'ip récupérée precédemment avec la commande ci-dessous. 
