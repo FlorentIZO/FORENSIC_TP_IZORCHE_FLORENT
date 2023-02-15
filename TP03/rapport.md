@@ -20,7 +20,7 @@ Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
 <p>
 
 La commande "history" nous a permis de lister toutes les commandes exécutées précédemment.
-![history](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/history.PNG "history")
+![history](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/history.PNG "history")  
 Plusieures actions suspectes ont pu être identifiées : 
 
 - L'indiviu a contacté un serveur distant (138.66.89.12), vraisemblablement l'une de ses machines.
