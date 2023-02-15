@@ -2,7 +2,7 @@
 
 
 ## *1 - Introduction :*
-
+<p>
 L'entreprise bosch-cyber nous a contacté suite a une attaque informatique impactant son site Web.
 Un individu a été en mesure d'installer des outils potentiellement dangereux sur la machine ciblée.
 Pour l'heure, la machine n'est plus utilisée et est isolée du reste de la production .
@@ -10,7 +10,7 @@ Pour l'heure, la machine n'est plus utilisée et est isolée du reste de la prod
 Notre analyse s'est uniquement concentrée sur la machine concernée par l'attaque . 
 Il s'agit d'un serveur Apache sous Ubuntu 2.04.5.
 Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
-
+</p>
 
 ## *2 - Méthodologie :*
 
