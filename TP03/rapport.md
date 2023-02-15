@@ -18,8 +18,8 @@ Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
 ### *2 - Méthodologie :*
 
 <p>
-La commande "history" nous a permis de lister toutes les commandes exécutées précédemment.
-![history](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/tp03-1.PNG "history")
+La commande "history" nous a permis de lister toutes les commandes exécutées précédemment.  
+![history](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/history.PNG "history")
 
 Plusieures actions suspectes ont pu être identifiées : 
 
