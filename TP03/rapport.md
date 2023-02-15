@@ -42,7 +42,7 @@ La commande grep -r /mypassword nous confirme qu'il ne reste aucune trace du fic
 Nous avons orienté notre grep vers l'ip récupérée precédemment avec la commande ci-dessous. 
 Nous ciblons le fichier access.log car il liste l'ensemble des accès Apache (via des reqûetes HTTP).
 La requête cible le mot "password" pour limiter la recherche. 
-![password](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/password.PNG "passwword")
+![password](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/password.PNG "passwword")  
 De cette façon, nous somme en mesure de récupérer le mot de passe de l'archive.
 
 Il ne nous reste plus qu'à lire le contenu du fichier all_tools.txt contenu dans l'archive :
