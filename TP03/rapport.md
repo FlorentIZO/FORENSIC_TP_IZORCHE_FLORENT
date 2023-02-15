@@ -1,7 +1,7 @@
 #							----- RAPPORT D'ANALYSE -----
 
 
-##1 - Introduction :
+## *1 - Introduction :*
 
 L'entreprise bosch-cyber nous a contacté suite a une attaque informatique impactant son site Web.
 Un individu a été en mesure d'installer des outils dangereux sur la machine ciblée.
@@ -12,7 +12,7 @@ Il s'agit d'un serveur Ubuntu 2.04.5.
 Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
 
 
-##2 - Méthodologie : 
+## 2 - Méthodologie : 
 
 
 La commande "history" nous a permis de lister toutes les commandes exécutées préédemment.
