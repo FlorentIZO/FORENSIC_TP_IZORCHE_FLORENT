@@ -1,4 +1,4 @@
-#							----- RAPPORT D'ANALYSE -----
+# [center]----- RAPPORT D'ANALYSE -----[/center]
 
 
 ## *1 - Introduction :*
