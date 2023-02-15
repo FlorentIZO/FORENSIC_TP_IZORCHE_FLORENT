@@ -3,7 +3,7 @@
 
 </br>
 
-## *1 - Introduction :*
+### *1 - Introduction :*
 <p>
 L'entreprise bosch-cyber nous a contacté suite a une attaque informatique impactant son site Web.
 Un individu a été en mesure d'installer des outils potentiellement dangereux sur la machine ciblée.
@@ -14,9 +14,10 @@ Il s'agit d'un serveur Apache sous Ubuntu 2.04.5.
 Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
 </p>
 <br></br>
-## *2 - Méthodologie :*
 
+### *2 - Méthodologie :*
 
+<p>
 La commande "history" nous a permis de lister toutes les commandes exécutées précédemment.
 ![history](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/tp03-1.PNG "history")
 
@@ -27,8 +28,8 @@ Plusieures actions suspectes ont pu être identifiées :
 La tentative a échoué par manque de droit.
 - L'individu a programmé une tâche planifiée à partir de la commande "crontab -e", il a ensuite compressé le fichier dans une archive .zip et a stocké le mot de passe de cette archive dans le fichier /tmp/mypassword.
 Enfin, il a déplacé son fichier malveillant vers le répertoire "/opt/leak", puis, il a supprimé le fichier de mots de passe (/tmp/mypassword) du fichier compressé.
-
-
+</p>
+<p>
 Actions réalisées :
 
 En ouvrant le fichier contrab, nous pouvons constater que la modificaiton a été apportée par l'adresse ip 138.66.89.12, l'adresse qu'il a lui même contacté précédemment.
@@ -46,7 +47,7 @@ De cette façon, nous somme en mesure de récupérer le mot de passe de l'archiv
 
 Il ne nous reste plus qu'à lire le contenu du fichier all_tools.txt contenu dans l'archive :
 ![unzip](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/unzip.PNG "unzip")
-
+</p>
 <br></br>
 ### *3 - Résultats et conlusion de l'analyse :*
 
