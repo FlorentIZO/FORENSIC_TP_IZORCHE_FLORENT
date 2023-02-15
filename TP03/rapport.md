@@ -1,7 +1,7 @@
-## 					----- RAPPORT D'ANALYSE ----- ##
+				## 	----- RAPPORT D'ANALYSE ----- ##
 
 
-### *1 - Introduction :*
+### *1 - Introduction :
 
 L'entreprise bosch-cyber nous a contacté suite a une attaque informatique impactant son site Web.
 Un individu a été en mesure d'installer des outils potentiellement dangereux sur la machine ciblée.
@@ -12,7 +12,7 @@ Il s'agit d'un serveur Apache sous Ubuntu 2.04.5.
 Aucune donnée n'a été modifiée ou supprimée durant l'analyse.
 
 
-### *2 - Méthodologie : 
+###*2 - Méthodologie : 
 
 
 La commande "history" nous a permis de lister toutes les commandes exécutées précédemment.
@@ -46,7 +46,7 @@ Il ne nous reste plus qu'à lire le contenu du fichier all_tools.txt contenu dan
 ![unzip](https://github.com/FlorentIZO/FORENSIC_TP_IZORCHE_FLORENT/blob/main/TP03/IMG/unzip.PNG "unzip")
 
 
-### *3 - Résultats et conlusion de l'nanalyse : 
+### *3 - Résultats et conlusion de l'analyse : 
 
 Un individu s'est connecté sur votre serveur est a déployé un programme/outil malveillant.
 Il a compressé son fichier et l'a protégé avec un mot de passe qu'il a stocké dans un second fichier.
